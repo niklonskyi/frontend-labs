@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lab2</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+      td {
+        border: 1px black solid;
+      }
+
+      table {
+        width: 80vw;
+        height: 50vh;
+        empty-cells: show;
+      }
+      td {
+        font-size: 2rem;
+        transition: 1s ease-in-out;
+      }
+      .first-row {
+        background-color: #778f8f;
+        color: #25d9d9;
+      }
+      .first-row :hover {
+        background-color: #25d9d9;
+        color: #778f8f;
+      }
+      .second-row {
+        background-color: #f5f577;
+        color: #45008c;
+      }
+      .second-row :hover {
+        background-color: #45008c;
+        color: #f5f577;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr class="first-row">
+        <td colspan="2" rowspan="2">Niklonskyi</td>
+        <td>Artem</td>
+        <td>Viktorovich</td>
+      </tr>
+      <tr class="first-row">
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr class="second-row">
+        <td colspan="2">IA-13</td>
+        <td>Lab №2</td>
+        <td rowspan="2">Var 7</td>
+      </tr>
+      <tr class="second-row">
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+    <div class="task-two">
+      <div class="clock">
+        <div class="circle" id="circle1-1"></div>
+        <div class="circle" id="circle1-2"></div>
+        <div class="circle" id="circle1-3"></div>
+        <div class="circle" id="circle1-4"></div>
+        <div class="hand" id="hand1-1"></div>
+        <div class="hand" id="hand1-2"></div>
+      </div>
+      <div class="clock clock-two">
+        <div class="circle" id="circle2-1"></div>
+        <div class="circle" id="circle2-2"></div>
+        <div class="circle" id="circle2-3"></div>
+        <div class="circle" id="circle2-4"></div>
+        <div class="hand" id="hand2-1"></div>
+        <div class="hand" id="hand2-2"></div>
+      </div>
+    </div>
+  </body>
+</html>

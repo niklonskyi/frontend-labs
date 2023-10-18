@@ -1,0 +1,75 @@
+.clock {
+    border: 1px black solid;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+  }
+  .circle {
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+  }
+  .hand {
+    border: 1px black solid;
+    background-color: black;
+    position: absolute;
+  }
+  .clock-two {
+    left: 300px;
+  }
+  #circle1-1 {
+    top: 90px;
+    left: 10px;
+  }
+  #circle1-2 {
+    left: 90px;
+    top: 10px;
+  }
+  #circle1-3 {
+    left: 170px;
+    top: 90px;
+  }
+  #circle1-4 {
+    top: 170px;
+    left: 90px;
+  }
+  #hand1-1 {
+    height: 100px;
+    width: 5px;
+    left: 97px;
+    top: 15px;
+  }
+  #hand1-2 {
+    height: 5px;
+    width: 100px;
+    left: 80px;
+    top: 95px;
+  }
+  #circle2-1 {
+    transform: translate(90px, 10px);
+  }
+  #circle2-2 {
+    transform: translate(10px, 90px);
+  }
+  #circle2-3 {
+    transform: translate(90px, 170px);
+  }
+  #circle2-4 {
+    transform: translate(170px, 90px);
+  }
+  #hand2-1 {
+    height: 100px;
+    width: 5px;
+    transform: translate(130px, 47px) rotate(0.75turn);
+  }
+  #hand2-2 {
+    height: 100px;
+    width: 5px;
+    transform: translate(97px, 17px);
+  }
