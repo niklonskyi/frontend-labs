@@ -1,0 +1,20 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.people-card {
+    width: 20%;
+    background-color: blanchedalmond;
+}
+
+.people-card-image {
+    width: 100%;
+}
